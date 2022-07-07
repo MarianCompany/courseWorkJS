@@ -1,0 +1,178 @@
+{
+  "criminals": [
+    {
+      "id": 0,
+      "firstName": "Марк",
+      "lastName": "Самойленко",
+      "dateOfBirth": "03.12.2003",
+      "nickname": "Marinad",
+      "height": 1.78,
+      "hairColor": "черный",
+      "eyesColor": "зелёные",
+      "extraMarks": [
+        "Шрам"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Харьков",
+      "languages": [
+        "RU",
+        "UA",
+        "EN"
+      ],
+      "criminalJob": "Хакер",
+      "lastCrime": "хуй",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 1,
+      "firstName": "Марк",
+      "lastName": "Самойленко",
+      "dateOfBirth": "03.12.2003",
+      "nickname": "Marinad",
+      "height": 1.78,
+      "hairColor": "черный",
+      "eyesColor": "зелёные",
+      "extraMarks": [
+        "Шрам"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Харьков",
+      "languages": [
+        "RU",
+        "UA",
+        "EN"
+      ],
+      "criminalJob": "Хакер",
+      "lastCrime": "Взлом пентагона",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 2,
+      "firstName": "Марк",
+      "lastName": "Самойленко",
+      "dateOfBirth": "03.12.2003",
+      "nickname": "Marinad",
+      "height": 1.78,
+      "hairColor": "черный",
+      "eyesColor": "зелёные",
+      "extraMarks": [
+        "Шрам"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Харьков",
+      "languages": [
+        "RU",
+        "UA",
+        "EN"
+      ],
+      "criminalJob": "Хакер",
+      "lastCrime": "Взлом пентагона",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 3,
+      "firstName": "Марк",
+      "lastName": "Самойленко",
+      "dateOfBirth": "03.12.2003",
+      "nickname": "Marinad",
+      "height": 1.78,
+      "hairColor": "черный",
+      "eyesColor": "зелёные",
+      "extraMarks": [
+        "Шрам"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Харьков",
+      "languages": [
+        "RU",
+        "UA",
+        "EN"
+      ],
+      "criminalJob": "Хакер",
+      "lastCrime": "Взлом пентагона",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 4,
+      "firstName": "Марк",
+      "lastName": "Самойленко",
+      "dateOfBirth": "03.12.2003",
+      "nickname": "Marinad",
+      "height": 1.78,
+      "hairColor": "черный",
+      "eyesColor": "зелёные",
+      "extraMarks": [
+        "Шрам"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Харьков",
+      "languages": [
+        "RU",
+        "UA",
+        "EN"
+      ],
+      "criminalJob": "Хакер",
+      "lastCrime": "Взлом пентагона",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 5,
+      "firstName": "Марк",
+      "lastName": "Самойленко",
+      "dateOfBirth": "03.12.2003",
+      "nickname": "Marinad",
+      "height": 1.78,
+      "hairColor": "черный",
+      "eyesColor": "зелёные",
+      "extraMarks": [
+        "Шрам"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Харьков",
+      "languages": [
+        "RU",
+        "UA",
+        "EN"
+      ],
+      "criminalJob": "Хакер",
+      "lastCrime": "Взлом пентагона",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 6,
+      "firstName": "Марк",
+      "lastName": "Самойленко",
+      "dateOfBirth": "03.12.2003",
+      "nickname": "Marinad",
+      "height": 1.78,
+      "hairColor": "черный",
+      "eyesColor": "зелёные",
+      "extraMarks": [
+        "Шрам"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Харьков",
+      "languages": [
+        "RU",
+        "UA",
+        "EN"
+      ],
+      "criminalJob": "Хакер",
+      "lastCrime": "Взлом пентагона",
+      "criminalBand": "KomaruClub"
+    }
+  ]
+}
