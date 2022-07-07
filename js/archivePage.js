@@ -1,17 +1,12 @@
 let archiveAnketList = [];
 
 $(document).ready(function () {
-    const archiveAnkets = getAnketsArchiveData();
+    let archiveAnkets = getAnketsArchiveData();
+    if (archiveAnkets === null) {
+        setAnketsArchiveData({criminalsArchive:[]})
+        archiveAnkets = getAnketsArchiveData();
+    }
     renderArchiveAnketList(archiveAnkets.criminalsArchive);
-
-    /*$.getJSON('../data/ankets.json', function (data) {
-        if(getAnketsData() === null) {
-            setAnketsData(data);
-        }
-    }).then(() => {
-        const ankets = getAnketsData().criminals;
-        renderAnketList(ankets);
-    });*/
 
 })
 
