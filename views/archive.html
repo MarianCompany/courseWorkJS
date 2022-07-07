@@ -4,20 +4,223 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Картотека Интерпола</title>
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/select2.min.js" type="text/javascript"></script>
+    <script src="../js/localStorageData.js" type="text/javascript"></script>
     <script src="../js/main.js" type="text/javascript"></script>
+    <script src="../js/popup.js" type="text/javascript"></script>
+    <script src="../js/anketPopup.js" type="text/javascript"></script>
+    <script src="../js/ArchiveAnket.js" type="text/javascript"></script>
+    <script src="../js/archivePage.js" type="text/javascript"></script>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/select2.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <div class="main">
     <div class="main__container">
         <div class="main__content">
-            <h2 class="title">Картотека Интерпола</h2>
-            <div class="menu main-menu">
-                <a href="" class="btn menu-btn">Картотека</a>
-                <a href="" class="btn menu-btn">Архив</a>
+            <a href="../index.html" class="btn back-btn">Назад</a>
+            <h2 class="title">Картотека</h2>
+            <div class="collection">
+                <div class="collection-header">
+                    <h4 class="title_sm collection__title">Архив преступников:</h4>
+                    <button class="btn collection-header__btn popup-btn" data-popupID="#search-popup">Поиск...</button>
+                </div>
+                <div class="collection-content">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popups">
+    <div class="popup search-popup" id="search-popup">
+        <div class="popup__content">
+            <h4 class="title_sm popup__title">Поиск по анкетам:</h4>
+            <p class="popup__description">Выберите признаки, по которым вы хотите найти преступников:</p>
+            <div class="popup__form">
+                <div class="form-items">
+                    <h5 class="form-items__title text_semibold">Основные признаки:</h5>
+                    <div class="form-items__wrap">
+                        <div class="form-item">
+                            <p class="form-item__label">Имя:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Имя">
+                        </div>
+                        <div class="form-item">
+                            <p class="form-item__label">Фамилия:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Фамилия">
+                        </div>
+                        <div class="form-item">
+                            <p class="form-item__label">Кличка:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Кличка">
+                        </div>
+                        <div class="form-item">
+                            <p class="form-item__label">Дата рождения:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Дата рождения">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-items">
+                    <h5 class="form-items__title text_semibold">Физические признаки:</h5>
+                    <div class="form-items__wrap">
+                        <div class="form-item">
+                            <p class="form-item__label">Рост:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Рост">
+                        </div>
+                        <div class="form-item">
+                            <p class="form-item__label">Цвет глаз:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Цвет глаз">
+                        </div>
+                        <div class="form-item">
+                            <p class="form-item__label">Цвет волос:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Цвет волос">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-items">
+                    <h5 class="form-items__title text_semibold">Места пребывания:</h5>
+                    <div class="form-items__wrap">
+                        <div class="form-item">
+                            <p class="form-item__label">Национальность:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Национальность">
+                        </div>
+                        <div class="form-item">
+                            <p class="form-item__label">Город рождения:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Город рождения">
+                        </div>
+                        <div class="form-item">
+                            <p class="form-item__label">Последний город:</p>
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Последний город">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-items">
+                    <h5 class="form-items__title text_semibold">Криминал:</h5>
+                    <div class="form-items__wrap">
+                        <div class="form-item">
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Должность">
+                        </div>
+                        <div class="form-item">
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Преступление">
+                        </div>
+                        <div class="form-item">
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Банда">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-items">
+                    <h5 class="form-items__title text_semibold">Другие признаки:</h5>
+                    <div class="form-items__wrap">
+                        <div class="form-item">
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Язык">
+                        </div>
+                        <div class="form-item">
+                            <input class="form-item__input anket-form-item__input" type="text" placeholder="Особая примета">
+                        </div>
+                    </div>
+                </div>
+                <div class="form__control">
+                    <button class="btn form__btn form__btn_delete anket-form__btn_delete">Очистить форму</button>
+                    <button class="btn form__btn">Найти...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup anket-popup" id="anket-popup-about">
+        <div class="popup__content popup-anket__content">
+            <div class="anket__content">
+                <img src="../img/avatar_default.jpg" alt="" class="anket__avatar">
+                <div class="anket__about">
+                    <div class="about-items">
+                        <h5 class="about-items__title text_bold">Основные признаки:</h5>
+                        <div class="about-items__wrap">
+                            <div class="about__item">
+                                <p class="about__label">Имя:</p>
+                                <p class="about__info">Марк</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Фамилия:</p>
+                                <p class="about__info">Самойленко</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Кличка:</p>
+                                <p class="about__info">marinad</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Дата рождения:</p>
+                                <p class="about__info">03.12.2003</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-items">
+                        <h5 class="about-items__title text_bold">Физические признаки:</h5>
+                        <div class="about-items__wrap">
+                            <div class="about__item">
+                                <p class="about__label">Рост:</p>
+                                <p class="about__info">Марк</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Цвет глаз:</p>
+                                <p class="about__info">Самойленко</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Цвет волос:</p>
+                                <p class="about__info">marinad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-items">
+                        <h5 class="about-items__title text_bold">Места пребывания:</h5>
+                        <div class="about-items__wrap">
+                            <div class="about__item">
+                                <p class="about__label">Национальность:</p>
+                                <p class="about__info">Марк</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Город рождения:</p>
+                                <p class="about__info">Самойленко</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Последний город:</p>
+                                <p class="about__info">marinad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-items">
+                        <h5 class="about-items__title text_bold">Криминал:</h5>
+                        <div class="about-items__wrap">
+                            <div class="about__item">
+                                <p class="about__label">Должность:</p>
+                                <p class="about__info">Марк</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Преступление:</p>
+                                <p class="about__info">Самойленко</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Банда:</p>
+                                <p class="about__info">marinad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-items">
+                        <h5 class="about-items__title text_bold">Другие признаки:</h5>
+                        <div class="about-items__wrap">
+                            <div class="about__item">
+                                <p class="about__label">Языки:</p>
+                                <p class="about__info">Марк</p>
+                            </div>
+                            <div class="about__item">
+                                <p class="about__label">Особые приметы:</p>
+                                <p class="about__info">Самойленко</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

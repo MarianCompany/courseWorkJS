@@ -11,7 +11,6 @@ $(document).ready(function () {
         renderAnketList(ankets);
     });
 
-
 })
 
 function renderAnketList(ankets) {
@@ -38,11 +37,31 @@ function addEventListenersToCollectionBtns() {
     })
 
     $('.collection__btn-delete').click(function (event) {
-        const anketID = Number($(event.target).attr('data-anket-id'));
-
-        anketList[findAnketByHtmlID(anketID)].deleteAnket();
-        renderAnketList(getAnketsData().criminals);
+        deleteAnket(event);
     })
+
+    $('.collection__btn-archive').click(function (event) {
+        if(getAnketsArchiveData() === null) {
+            setAnketsArchiveData({criminalsArchive:[]})
+        }
+
+        let archiveAnkets = getAnketsArchiveData();
+        const currentAnkets = getAnketsData().criminals;
+        const anketClassID = findAnketByHtmlID(Number($(event.target).attr('data-anket-id')));
+
+        console.log([anketClassID, currentAnkets, currentAnkets[anketClassID]])
+
+        archiveAnkets.criminalsArchive.push(currentAnkets[anketClassID]);
+        setAnketsArchiveData(archiveAnkets);
+        deleteAnket(event);
+    })
+}
+
+function deleteAnket(event) {
+    const anketID = Number($(event.target).attr('data-anket-id'));
+
+    anketList[findAnketByHtmlID(anketID)].deleteAnket();
+    renderAnketList(getAnketsData().criminals);
 }
 
 function findAnketByHtmlID(id) {
@@ -55,4 +74,6 @@ function findAnketByHtmlID(id) {
 
     return undefined;
 }
+
+
 

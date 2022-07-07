@@ -9,5 +9,17 @@ function getAnketsData() {
     } else {
         return null;
     }
+}
 
+function setAnketsArchiveData(json) {
+    localStorage.setItem('archive', JSON.stringify(json));
+}
+
+function getAnketsArchiveData() {
+    let dataFromLocalStorage = localStorage.getItem('archive');
+    if(dataFromLocalStorage !== null) {
+        return JSON.parse(localStorage.getItem('archive'));
+    } else {
+        return null;
+    }
 }
