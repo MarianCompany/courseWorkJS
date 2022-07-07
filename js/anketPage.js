@@ -1,7 +1,6 @@
 let anketList = [];
 
 $(document).ready(function () {
-
     $.getJSON('../data/ankets.json', function (data) {
         if(getAnketsData() === null) {
             setAnketsData(data);
@@ -9,7 +8,7 @@ $(document).ready(function () {
     }).then(() => {
         const ankets = getAnketsData().criminals;
         renderAnketList(ankets);
-    });
+    })
 
 })
 
@@ -24,7 +23,6 @@ function renderAnketList(ankets) {
         }
         addEventListenersToCollectionBtns();
     } else {
-        $('.collection-content').css('display', 'block')
         $('.collection-content').html('К сожалению, анкеты не были найдены или все анкеты удалены');
     }
 }
@@ -49,8 +47,6 @@ function addEventListenersToCollectionBtns() {
         const currentAnkets = getAnketsData().criminals;
         const anketClassID = findAnketByHtmlID(Number($(event.target).attr('data-anket-id')));
 
-        console.log([anketClassID, currentAnkets, currentAnkets[anketClassID]])
-
         archiveAnkets.criminalsArchive.push(currentAnkets[anketClassID]);
         setAnketsArchiveData(archiveAnkets);
         deleteAnket(event);
@@ -67,7 +63,6 @@ function deleteAnket(event) {
 function findAnketByHtmlID(id) {
     for(let i = 0; i < anketList.length; i++) {
         if(anketList[i].id === id) {
-            console.log([i, id])
             return i;
         }
     }

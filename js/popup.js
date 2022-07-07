@@ -2,9 +2,7 @@ $(document).ready(function () {
 
     $('.popup').click(function (event) {
         if(this === event.target) {
-            $('.active-popup').fadeOut();
-            $('.active-popup').removeClass('active-popup');
-            $('body').css('overflow', 'auto');
+            closeActivePopup();
         }
     });
 
@@ -22,4 +20,10 @@ function onPopupBtnCLick(event) {
     $(popupID).fadeIn();
     $(popupID).addClass('active-popup');
     $('body').css('overflow', 'hidden');
+}
+
+function closeActivePopup() {
+    $('.active-popup').fadeOut();
+    $('.active-popup').removeClass('active-popup');
+    $('body').css('overflow', 'auto');
 }

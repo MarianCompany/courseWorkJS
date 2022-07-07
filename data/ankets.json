@@ -1,4 +1,4 @@
-{
+﻿{
   "criminals": [
     {
       "id": 0,
@@ -21,157 +21,220 @@
         "EN"
       ],
       "criminalJob": "Хакер",
-      "lastCrime": "хуй",
+      "lastCrime": "Взлом пентагона",
       "criminalBand": "KomaruClub"
     },
 
     {
       "id": 1,
-      "firstName": "Марк",
-      "lastName": "Самойленко",
-      "dateOfBirth": "03.12.2003",
-      "nickname": "Marinad",
-      "height": 1.78,
-      "hairColor": "черный",
+      "firstName": "Игорь",
+      "lastName": "Масловский",
+      "dateOfBirth": "09.01.2006",
+      "nickname": "Maslowww",
+      "height": 1.84,
+      "hairColor": "белый",
       "eyesColor": "зелёные",
       "extraMarks": [
-        "Шрам"
+        "дод"
       ],
       "nationality": "Украина",
       "placeOfBirth": "Северодонецк",
-      "lastPlaceOfLiving": "Харьков",
+      "lastPlaceOfLiving": "Лодзь",
       "languages": [
         "RU",
         "UA",
-        "EN"
+        "EN",
+        "POL"
       ],
-      "criminalJob": "Хакер",
-      "lastCrime": "Взлом пентагона",
-      "criminalBand": "KomaruClub"
+      "criminalJob": "Наркокурьер",
+      "lastCrime": "Закладка",
+      "criminalBand": "BigSimir"
     },
 
     {
       "id": 2,
-      "firstName": "Марк",
-      "lastName": "Самойленко",
-      "dateOfBirth": "03.12.2003",
-      "nickname": "Marinad",
-      "height": 1.78,
-      "hairColor": "черный",
-      "eyesColor": "зелёные",
+      "firstName": "Глеб",
+      "lastName": "Балжи",
+      "dateOfBirth": "04.2.1963",
+      "nickname": "Papito",
+      "height": 1.56,
+      "hairColor": "светло-русый",
+      "eyesColor": "голубые",
       "extraMarks": [
-        "Шрам"
+        "отсутствие левого глаза"
       ],
-      "nationality": "Украина",
-      "placeOfBirth": "Северодонецк",
-      "lastPlaceOfLiving": "Харьков",
+      "nationality": "Куба",
+      "placeOfBirth": "Гавана",
+      "lastPlaceOfLiving": "Гавана",
       "languages": [
-        "RU",
-        "UA",
-        "EN"
+        "ES"
       ],
-      "criminalJob": "Хакер",
-      "lastCrime": "Взлом пентагона",
-      "criminalBand": "KomaruClub"
+      "criminalJob": "Диктатор",
+      "lastCrime": "Государственный переворот",
+      "criminalBand": "BigSimir"
     },
 
     {
       "id": 3,
-      "firstName": "Марк",
-      "lastName": "Самойленко",
-      "dateOfBirth": "03.12.2003",
-      "nickname": "Marinad",
-      "height": 1.78,
-      "hairColor": "черный",
-      "eyesColor": "зелёные",
+      "firstName": "Андрей",
+      "lastName": "Макарчук",
+      "dateOfBirth": "06.2.1999",
+      "nickname": "fox",
+      "height": 1.5,
+      "hairColor": "русый",
+      "eyesColor": "карие",
       "extraMarks": [
-        "Шрам"
+        "шишка на носу"
       ],
-      "nationality": "Украина",
-      "placeOfBirth": "Северодонецк",
-      "lastPlaceOfLiving": "Харьков",
+      "nationality": "Германия",
+      "placeOfBirth": "Берлин",
+      "lastPlaceOfLiving": "Петрозаводск",
       "languages": [
         "RU",
-        "UA",
-        "EN"
+        "GE"
       ],
-      "criminalJob": "Хакер",
-      "lastCrime": "Взлом пентагона",
-      "criminalBand": "KomaruClub"
+      "criminalJob": "Поставщик оружия",
+      "lastCrime": "Ограбление склада оружия",
+      "criminalBand": "BigSimir"
     },
 
     {
       "id": 4,
-      "firstName": "Марк",
-      "lastName": "Самойленко",
-      "dateOfBirth": "03.12.2003",
-      "nickname": "Marinad",
-      "height": 1.78,
+      "firstName": "Василий",
+      "lastName": "Анапенко",
+      "dateOfBirth": "06.04.1974",
+      "nickname": "fer",
+      "height": 1.73,
       "hairColor": "черный",
-      "eyesColor": "зелёные",
+      "eyesColor": "карие",
       "extraMarks": [
-        "Шрам"
+        "отсутствие левого глаза"
       ],
-      "nationality": "Украина",
-      "placeOfBirth": "Северодонецк",
-      "lastPlaceOfLiving": "Харьков",
+      "nationality": "США",
+      "placeOfBirth": "Нью-Йорк",
+      "lastPlaceOfLiving": "Вашингтон",
       "languages": [
         "RU",
-        "UA",
         "EN"
       ],
-      "criminalJob": "Хакер",
-      "lastCrime": "Взлом пентагона",
-      "criminalBand": "KomaruClub"
+      "criminalJob": "Торговец людьми",
+      "lastCrime": "Продажа раба",
+      "criminalBand": "SEGRO"
     },
 
     {
       "id": 5,
-      "firstName": "Марк",
-      "lastName": "Самойленко",
-      "dateOfBirth": "03.12.2003",
-      "nickname": "Marinad",
-      "height": 1.78,
-      "hairColor": "черный",
-      "eyesColor": "зелёные",
+      "firstName": "Майк",
+      "lastName": "Арон",
+      "dateOfBirth": "29.5.2001",
+      "nickname": "sensei",
+      "height": 1.67,
+      "hairColor": "серый",
+      "eyesColor": "карие",
       "extraMarks": [
-        "Шрам"
+        "Ожог правой ноги"
       ],
-      "nationality": "Украина",
-      "placeOfBirth": "Северодонецк",
-      "lastPlaceOfLiving": "Харьков",
+      "nationality": "Испания",
+      "placeOfBirth": "Барселона",
+      "lastPlaceOfLiving": "Барселона",
       "languages": [
-        "RU",
-        "UA",
-        "EN"
+        "ES"
       ],
-      "criminalJob": "Хакер",
-      "lastCrime": "Взлом пентагона",
-      "criminalBand": "KomaruClub"
+      "criminalJob": "Сутенер",
+      "lastCrime": "Продажа яблок",
+      "criminalBand": "BigSimir"
     },
 
     {
       "id": 6,
-      "firstName": "Марк",
-      "lastName": "Самойленко",
-      "dateOfBirth": "03.12.2003",
-      "nickname": "Marinad",
-      "height": 1.78,
-      "hairColor": "черный",
-      "eyesColor": "зелёные",
+      "firstName": "Роман",
+      "lastName": "Андриенко",
+      "dateOfBirth": "04.06.2002",
+      "nickname": "siez",
+      "height": 1.56,
+      "hairColor": "розовый",
+      "eyesColor": "голубые",
       "extraMarks": [
-        "Шрам"
+        "Шрам на левой руке"
+      ],
+      "nationality": "Литва",
+      "placeOfBirth": "Вильнюс",
+      "lastPlaceOfLiving": "Рига",
+      "languages": [
+        "RU",
+        "LT"
+      ],
+      "criminalJob": "Спекулянт",
+      "lastCrime": "Продажа джинс",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 7,
+      "firstName": "Николай",
+      "lastName": "Гришин",
+      "dateOfBirth": "11.08.2004",
+      "nickname": "vodkolyan",
+      "height": 1.94,
+      "hairColor": "русый",
+      "eyesColor": "карие",
+      "extraMarks": [
+        "Белые кроссовки"
       ],
       "nationality": "Украина",
       "placeOfBirth": "Северодонецк",
-      "lastPlaceOfLiving": "Харьков",
+      "lastPlaceOfLiving": "Днепр",
       "languages": [
-        "RU",
-        "UA",
-        "EN"
+        "RU"
       ],
-      "criminalJob": "Хакер",
-      "lastCrime": "Взлом пентагона",
+      "criminalJob": "Спекулянт",
+      "lastCrime": "Продажа палёной водки",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 8,
+      "firstName": "Александр",
+      "lastName": "Таболин",
+      "dateOfBirth": "28.10.2003",
+      "nickname": "koncet",
+      "height": 1.8,
+      "hairColor": "блондин",
+      "eyesColor": "карие",
+      "extraMarks": [
+        "длинные волосы"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Черновцы",
+      "languages": [
+        "RU"
+      ],
+      "criminalJob": "Убийца",
+      "lastCrime": "Убийство двух человек",
+      "criminalBand": "KomaruClub"
+    },
+
+    {
+      "id": 9,
+      "firstName": "Александр",
+      "lastName": "Таболин",
+      "dateOfBirth": "28.10.2003",
+      "nickname": "koncet",
+      "height": 1.8,
+      "hairColor": "блондин",
+      "eyesColor": "карие",
+      "extraMarks": [
+        "длинные волосы"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Северодонецк",
+      "lastPlaceOfLiving": "Черновцы",
+      "languages": [
+        "RU"
+      ],
+      "criminalJob": "Убийца",
+      "lastCrime": "Убийство двух человек",
       "criminalBand": "KomaruClub"
     }
   ]

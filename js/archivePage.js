@@ -52,7 +52,6 @@ function deleteAnket(event) {
 function findAnketByHtmlID(id) {
     for(let i = 0; i < archiveAnketList.length; i++) {
         if(archiveAnketList[i].id === id) {
-            console.log([i, id])
             return i;
         }
     }

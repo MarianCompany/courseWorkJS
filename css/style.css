@@ -118,11 +118,13 @@ body {
     grid-template-columns: repeat(4 ,minmax(0, 1fr));
     grid-column-gap: 30px;
     margin-top: 15px;
+    white-space: nowrap;
 }
 
 .collection-item {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: flex-start;
 
     margin-top: 15px;
@@ -131,6 +133,7 @@ body {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    white-space: normal;
 }
 
 .collection__avatar {
@@ -334,7 +337,7 @@ body {
 }
 
 .anket__avatar {
-    width: 300px;
+    width: 100%;
     justify-self: center;
 
     -webkit-border-radius: 10px;

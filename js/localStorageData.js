@@ -23,3 +23,16 @@ function getAnketsArchiveData() {
         return null;
     }
 }
+
+function setAnketsBeforeSearchData(json) {
+    localStorage.setItem('anketsBeforeSearch', JSON.stringify(json));
+}
+
+function getAnketsBeforeSearchData() {
+    let dataFromLocalStorage = localStorage.getItem('anketsBeforeSearch');
+    if(dataFromLocalStorage !== null) {
+        return JSON.parse(localStorage.getItem('anketsBeforeSearch'));
+    } else {
+        return null;
+    }
+}
