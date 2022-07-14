@@ -1,4 +1,5 @@
 class ArchiveAnket extends Anket {
+
     constructor(anketData) {
         super(anketData);
         this.anketTemplate = `<div class="collection-item" data-anket-id="${this.id}">

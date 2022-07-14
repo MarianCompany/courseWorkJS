@@ -5,3 +5,7 @@ function getStorageItem(itemName) {
 function setStorageItem(itemName, payload) {
     localStorage.setItem(itemName, JSON.stringify(payload));
 }
+
+function clearStorage() {
+    localStorage.clear();
+}
