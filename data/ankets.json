@@ -198,7 +198,7 @@
       "lastName": "Таболин",
       "dateOfBirth": "28.10.2003",
       "nickname": "koncet",
-      "height": 1.8,
+      "height": 1.86,
       "hairColor": "блондин",
       "eyesColor": "карие",
       "extraMarks": [
@@ -217,25 +217,256 @@
 
     {
       "id": 9,
-      "firstName": "Александр",
-      "lastName": "Таболин",
-      "dateOfBirth": "28.10.2003",
-      "nickname": "koncet",
+      "firstName": "Даниил",
+      "lastName": "Батейко",
+      "dateOfBirth": "27.08.2002",
+      "nickname": "donXnon",
+      "height": 1.65,
+      "hairColor": "брюнет",
+      "eyesColor": "карие",
+      "extraMarks": [
+        "ожог на правой руке"
+      ],
+      "nationality": "Украина",
+      "placeOfBirth": "Днепр",
+      "lastPlaceOfLiving": "Киев",
+      "languages": [
+        "UA"
+      ],
+      "criminalJob": "Насильник",
+      "lastCrime": "Изнасиловал двоих человек",
+      "criminalBand": "DextoClub"
+    },
+
+    {
+      "id": 10,
+      "firstName": "Зенон",
+      "lastName": "Бобылев",
+      "dateOfBirth": "10.05.2004",
+      "nickname": "hotWater",
+      "height": 1.91,
+      "hairColor": "русый",
+      "eyesColor": "зеленный",
+      "extraMarks": [
+        "татуировка на шеи"
+      ],
+      "nationality": "Россия",
+      "placeOfBirth": "Москва",
+      "lastPlaceOfLiving": "Санкт-Петербург",
+      "languages": [
+        "RU"
+      ],
+      "criminalJob": "Грабитель",
+      "lastCrime": "Ограбил московский театр",
+      "criminalBand": "None"
+    },
+
+    {
+      "id": 11,
+      "firstName": "Яромир",
+      "lastName": "Герасимов",
+      "dateOfBirth": "15.07.2001",
+      "nickname": "Ya-ged",
+      "height": 2.0,
+      "hairColor": "брюнет",
+      "eyesColor": "голубой",
+      "extraMarks": [
+        "без одной ноги"
+      ],
+      "nationality": "Литва",
+      "placeOfBirth": "Клайпеда",
+      "lastPlaceOfLiving": "Варшава",
+      "languages": [
+        "LV"
+      ],
+      "criminalJob": "Террорист",
+      "lastCrime": "Террор в Москве",
+      "criminalBand": "Adjex"
+    },
+
+    {
+      "id": 12,
+      "firstName": "Дмитрий",
+      "lastName": "Котов",
+      "dateOfBirth": "01.07.2000",
+      "nickname": "DmiyK",
       "height": 1.8,
       "hairColor": "блондин",
       "eyesColor": "карие",
       "extraMarks": [
-        "длинные волосы"
+        "без одного пальца"
       ],
       "nationality": "Украина",
-      "placeOfBirth": "Северодонецк",
-      "lastPlaceOfLiving": "Черновцы",
+      "placeOfBirth": "Киев",
+      "lastPlaceOfLiving": "Стамбул",
+      "languages": [
+        "EN"
+      ],
+      "criminalJob": "Дилер наркотиков",
+      "lastCrime": "Ограбление в Турции",
+      "criminalBand": "NextDeller"
+    },
+
+    {
+      "id": 13,
+      "firstName": "Олег",
+      "lastName": "Гриневский",
+      "dateOfBirth": "02.01.2002",
+      "nickname": "BePod",
+      "height": 1.9,
+      "hairColor": "седой",
+      "eyesColor": "серый",
+      "extraMarks": [
+        "хромает"
+      ],
+      "nationality": "Германия",
+      "placeOfBirth": "Берлин",
+      "lastPlaceOfLiving": "Киев",
+      "languages": [
+        "DE"
+      ],
+      "criminalJob": "Глава мафии",
+      "lastCrime": "Ограбление",
+      "criminalBand": "KirotoNoin"
+    },
+
+    {
+      "id": 14,
+      "firstName": "Алла",
+      "lastName": "Ярионова",
+      "dateOfBirth": "17.11.2002",
+      "nickname": "return",
+      "height": 1.94,
+      "hairColor": "брюнетка",
+      "eyesColor": "красный",
+      "extraMarks": [
+        "ожог на пол лица"
+      ],
+      "nationality": "Турция",
+      "placeOfBirth": "Стамбул",
+      "lastPlaceOfLiving": "Днепр",
       "languages": [
         "RU"
       ],
-      "criminalJob": "Убийца",
-      "lastCrime": "Убийство двух человек",
-      "criminalBand": "KomaruClub"
+      "criminalJob": "Секс торговля",
+      "lastCrime": "Заманила девушек в рабство",
+      "criminalBand": "None"
+    },
+
+    {
+      "id": 15,
+      "firstName": "Флорентина",
+      "lastName": "Потапова",
+      "dateOfBirth": "22.12.2002",
+      "nickname": "Potap",
+      "height": 1.93,
+      "hairColor": "блондинка",
+      "eyesColor": "черный",
+      "extraMarks": [
+        "имеет не типичную внешность"
+      ],
+      "nationality": "Россия",
+      "placeOfBirth": "Северодвинск",
+      "lastPlaceOfLiving": "Северодонецк",
+      "languages": [
+        "RU"
+      ],
+      "criminalJob": "Продажа оружия",
+      "lastCrime": "Продажа высокоточного оружия",
+      "criminalBand": "MinKillig"
+    },
+
+    {
+      "id": 16,
+      "firstName": "Жаклин",
+      "lastName": "Фролова",
+      "dateOfBirth": "10.10.2010",
+      "nickname": "PussyJussy",
+      "height": 1.59,
+      "hairColor": "брюнетка",
+      "eyesColor": "зеленный",
+      "extraMarks": [
+        "ходит с маской на лице"
+      ],
+      "nationality": "Испания",
+      "placeOfBirth": "Севилья",
+      "lastPlaceOfLiving": "Берселона",
+      "languages": [
+        "ES"
+      ],
+      "criminalJob": "Наемник",
+      "lastCrime": "Организованная атака на собор",
+      "criminalBand": "GreatIspania"
+    },
+
+    {
+      "id": 17,
+      "firstName": "Шушана",
+      "lastName": "Яковлева",
+      "dateOfBirth": "15.08.1999",
+      "nickname": "Yake",
+      "height": 1.81,
+      "hairColor": "седой",
+      "eyesColor": "зеленный",
+      "extraMarks": [
+        "без макияжа"
+      ],
+      "nationality": "Япония",
+      "placeOfBirth": "Токио",
+      "lastPlaceOfLiving": "Убин",
+      "languages": [
+        "JA"
+      ],
+      "criminalJob": "Контрабнда",
+      "lastCrime": "Продажа и перевоз контрабанды",
+      "criminalBand": "None"
+    },
+
+    {
+      "id": 18,
+      "firstName": "Хильда",
+      "lastName": "Хижняк",
+      "dateOfBirth": "21.10.2000",
+      "nickname": "ХхХ",
+      "height": 1.7,
+      "hairColor": "брюнет",
+      "eyesColor": "зеленный",
+      "extraMarks": [
+        "none"
+      ],
+      "nationality": "Россия",
+      "placeOfBirth": "Москва",
+      "lastPlaceOfLiving": "Сеул",
+      "languages": [
+        "RU"
+      ],
+      "criminalJob": "Порно актриса",
+      "lastCrime": "Ограбление",
+      "criminalBand": "Nen-Stop"
+    },
+
+    {
+      "id": 19,
+      "firstName": "Шизуку",
+      "lastName": "Мартейн",
+      "dateOfBirth": "01.01.2001",
+      "nickname": "HхH",
+      "height": 1.6,
+      "hairColor": "черный",
+      "eyesColor": "розовый",
+      "extraMarks": [
+        "татуировка в виде паука", "нацисткая символика на руке"
+      ],
+      "nationality": "Австрия",
+      "placeOfBirth": "Вена",
+      "lastPlaceOfLiving": "Зальцбург",
+      "languages": [
+        "AT"
+      ],
+      "criminalJob": "Генерал наемников",
+      "lastCrime": "захват государственного здания",
+      "criminalBand": "ZaSvobody"
     }
+
   ]
 }
