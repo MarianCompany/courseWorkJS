@@ -18,7 +18,7 @@ class Collection {
             this.ankets = criminalAnkets;
             this._renderAnkets();
         } else {
-            $.getJSON('/data/ankets.json')
+            $.getJSON('../data/ankets.json')
                 .then((data) => {
                     const criminals = data.criminals;
                     let criminalAnkets = [];
